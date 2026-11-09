@@ -10,9 +10,8 @@ Se conecta con tu cuenta de Atlassian, recorre los espacios a los que tienes acc
 
 Descarga la última versión desde **[Releases](../../releases/latest)**:
 
-1. Descarga `SpaceCalculator-vX.Y.Z-win-x64.zip`.
-2. Descomprímelo en una carpeta.
-3. Ejecuta `SpaceCalculator.exe`.
+1. Descarga `SpaceCalculator.exe`.
+2. Ejecuta.
 
 No necesita instalación.
 
