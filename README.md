@@ -28,6 +28,7 @@ No necesita instalación.
 ## Funciones
 
 - **Resumen**: total de espacios, tamaño total utilizado, espacio que más consume y páginas analizadas.
+- **Plan y espacio disponible**: muestra tu plan de Confluence, el espacio total que incluye y el porcentaje ocupado, con una barra que avisa en ámbar desde el 75 % y en rojo desde el 90 %.
 - **Detalle por espacio**: páginas ordenadas de mayor a menor tamaño, con el porcentaje que ocupa cada una dentro de su espacio.
 - **Búsqueda** por nombre de espacio o título de página.
 - **Filtro** para ocultar las páginas sin adjuntos.
@@ -40,8 +41,9 @@ No necesita instalación.
 2. Introduce:
    - tu **correo** de Atlassian,
    - el **dominio** de tu Confluence, por ejemplo `https://empresa.atlassian.net/wiki`,
-   - tu **API token**.
-3. Pulsa **Comprobar conectividad** para probar la conexión y después **Guardar Cambios**.
+   - tu **API token**,
+   - el **plan de Confluence**: deja *Automático* para que se detecte desde Confluence o elige tu plan si no se detecta.
+3. Pulsa **Comprobar conectividad** para probar la conexión (si se detecta el plan, también lo verás aquí) y después **Guardar Cambios**.
 4. En la ventana principal, pulsa **Calcular**.
 
 ## Privacidad y seguridad
@@ -59,6 +61,7 @@ No necesita instalación.
 
 | Versión | Novedades |
 |---|---|
+| 1.0.1 | Plan de Confluence y espacio total disponible en el resumen, barra de título propia con minimizar, maximizar y cerrar, e icono nuevo |
 | 1.0.0 | Primera versión: cálculo por espacio y página, búsqueda, filtros, configuración con token cifrado y aviso de actualizaciones |
 
 ## Autor
